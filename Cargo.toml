@@ -4,3 +4,31 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+anyhow = "1.0"
+card-backend = "0.2"
+card-backend-pcsc = "0.5"
+chrono = "0.4"
+clap = { version = "4", features = ["derive", "string", "wrap_help"] }
+clap_allgen = "0.1.1"
+clap_complete = "4.5"
+env_logger = "0.11"
+hex = "0.4"
+indoc = "2"
+log = "0.4"
+openpgp-card = "0.5"
+openpgp-card-rpgp = "0.1.1"
+pem = "3.0"
+pgp = "0.13"
+rand = "0.8"
+rpgpie = "0.1"
+rpassword = "7"
+secrecy = "0.8"
+semver = "1.0.23"
+serde = { version = "1.0.204", features = ["derive"] }
+serde_json = "1.0.120"
+serde_yaml = "0.9.13"
+sshkeys = "0.3.3"
+thiserror = "1.0.63"
+dotenvy = {version = "0.15"}
+yubikey-management = "0.0.3"
+lazy_static = {version = "1.5"}
